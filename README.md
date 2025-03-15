@@ -44,17 +44,15 @@ The goal is to create an interactive interface for drone simulation and data vis
 6. **Run Python Script:**
    - The two Python scripts in the repository (\BlazorApp1\proxy) do not start automatically when the Blazor web application runs.
    - You need to manually execute these scripts to enable data communication, including frame streaming, drone commands, and telemetry data.
+   - To run the scripts:
+     Open CMD, navigate to the directory containing the Python files, and execute:
+     ```sh
+     python airsim_proxy.py
+     python airsim1.py
+       ```
+   - To avoid running them manually each time, consider creating a BAT file for automation.
 
-  -To run the scripts:
-    Open CMD, navigate to the directory containing the Python files, and execute:
-      ```sh
-      python airsim_proxy.py
-      python airsim1.py
-      ```
-  
-  -To avoid running them manually each time, consider creating a BAT file for automation.
-
-7. **Access the Dashboard:**
+8. **Access the Dashboard:**
    - Open `https://localhost:PORT` in your browser.
    - Ensure the Blazor app connects successfully to AirSim.
 
