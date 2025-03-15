@@ -50,6 +50,7 @@ The goal is to create an interactive interface for drone simulation and data vis
       ```sh
       python airsim_proxy.py
       python airsim1.py
+      ```
   
   -To avoid running them manually each time, consider creating a BAT file for automation.
 
